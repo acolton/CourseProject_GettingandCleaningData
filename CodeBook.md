@@ -16,14 +16,14 @@ As per the README.txt file in the data files the "sensor signals (accelerometer 
 ##Creating the tidy datafile
 
 ###Guide to create the tidy data file
- 1. Download the dataset to your working directory
+ 1. Download the dataset to your working directory https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
  
  2. type source("run_analysis.r") to load the script
  
  3. type get.tidyData() to run the script
 
 ###Cleaning of the data
-The tidy data was created by downloading the files from and reading them into R.  Column names were applied and the data sets were merged together.  At that point the data set was filtered to include only the mean and standard deviation data. For detailed information on how the data was processed see the README.md file
+The tidy data was created by downloading the files and reading them into R.  Column names were applied and the data sets were merged together.  At that point the data set was filtered to include only the mean and standard deviation data. For detailed information on how the data was processed see the README.md file
 
 ##Description of the variables in the tiny_data.txt file
 The variable names include the following terms

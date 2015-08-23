@@ -2,7 +2,7 @@
 The goal of this script is to read in an untidy dataset from multiple files and combine them into one tidy dataset that is ready tor further analysis. 
 
 ## To Use
- 1. Download the dataset to your working directory
+ 1. Download the dataset to your working directory https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
  
  2. type source("run_analysis.r") to load the script
  
