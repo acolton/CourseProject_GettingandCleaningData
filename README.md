@@ -14,7 +14,7 @@ After the script completes two data sets will open, tidyData and tidySummary
   
   - tidySummary is the dataset required for step 5, this data is also included in the assignment submission as a text file.
 
-## Code Explaination
+## Code Explanation
 The basic steps included in the script are:
 
 - Read Data Files - read data from six data files (X_test.txt, y_test.txt, subject_test.txt, X_train.txt, y_train.txt, subject_train.txt) and two files with information defining the data (features.txt, activity_labels.txt)
