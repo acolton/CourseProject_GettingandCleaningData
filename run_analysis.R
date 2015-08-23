@@ -53,7 +53,9 @@ get.tidyData <- function(){
   # Create new data set with average of each variable for each activity and each subject
   # and write to file
   
-  #longData <- melt(tidyData, id=c("ID", "activityType"))
-  #tidySummary <- dcast(longData, ID + activityType~variable, mean)
-  #write.table(tidySummary, "tidySummary.txt")
+  longData <- melt(tidyData, id=c("ID", "activityType"))
+  tidySummary <- dcast(longData, ID + activityType~variable, mean)
+  #write.table(tidySummary, "tidySummary.txt", row.name = FALSE)
+  View(tidySummary)
+  View(tidyData)
 }
