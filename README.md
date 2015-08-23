@@ -17,17 +17,17 @@ After the script completes two data sets will open, tidyData and tidySummary
 ## Code Explaination
 The basic steps included in the script are:
 
-- Read Data Files - read data from six data files (X_test.txt, y_test.txt, subject_test.txt, X_train.txt, y_train.txt, subject_train.txt) and two files with information defining the data (features.txt, activity_lables.txt)
+- Read Data Files - read data from six data files (X_test.txt, y_test.txt, subject_test.txt, X_train.txt, y_train.txt, subject_train.txt) and two files with information defining the data (features.txt, activity_labels.txt)
 
-- Label columns with descriptive names - in this step information from the features.txt file is taken and applied to datasets as column names.  The ID and activityTypes columns are also labeled.
+- Label columns with descriptive names - in this step information from the features.txt file is taken and applied to data sets as column names.  The ID and activityTypes columns are also labeled.
 
-- Bind Data Sets - data is bound into two datasets testData (comprised of data from the X_test, y_test and subject_test files) and trainData (comprised of data from the X_train, y_train and subject_train files)
+- Bind Data Sets - data is bound into two data sets testData (comprised of data from the X_test, y_test and subject_test files) and trainData (comprised of data from the X_train, y_train and subject_train files)
 
-- Merge Train and Test Datasets - testData and trainData datasets are combined into one
+- Merge Train and Test Data sets - testData and trainData data sets are combined into one
 
 - Extract measurements on mean and standard deviation - the dataset is filtered to remove all columns that aren't a standard deviation or mean.
 
-- Clean up column names - column names are modified to remove parenthases and expand abbreviations to make the names more readable.  
+- Clean up column names - column names are modified to remove parentheses and expand abbreviations to make the names more readable.  
 
 - Map Activity Names to Activity types column - activity names from the activity_labels file are applied to the activityType column.
 
